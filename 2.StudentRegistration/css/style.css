@@ -1,0 +1,116 @@
+/* Apply styles to all elements */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+ 
+/* Page styling */
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f2f2f2;
+   padding: 30px;
+}
+ 
+/* Form container */
+.container {
+   width: 500px;
+   max-width: 100%;
+   margin: auto;
+   background-color: white;
+   padding: 30px;
+   border-radius: 10px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+ 
+/* Heading */
+h1 {
+   text-align: center;
+   margin-bottom: 25px;
+   color: #333;
+}
+ 
+/* Form group */
+.form-group {
+   margin-bottom: 18px;
+}
+ 
+/* Labels */
+.form-group label {
+   display: block;
+   font-weight: bold;
+   margin-bottom: 6px;
+}
+ 
+/* Input, select and textarea */
+input,
+select,
+textarea {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #999;
+   border-radius: 5px;
+   font-size: 16px;
+}
+ 
+/* Focus effect */
+input:focus,
+select:focus,
+textarea:focus {
+   outline: none;
+   border-color: #007bff;
+}
+ 
+/* Gender options */
+.gender {
+   display: flex;
+   gap: 15px;
+   align-items: center;
+}
+ 
+.gender input {
+   width: auto;
+}
+ 
+.gender label {
+   margin: 0;
+}
+ 
+/* Buttons section */
+.buttons {
+   display: flex;
+   gap: 15px;
+}
+ 
+/* Button styling */
+button {
+   flex: 1;
+   padding: 12px;
+   border: none;
+   border-radius: 5px;
+   font-size: 16px;
+   cursor: pointer;
+   background-color: #007bff;
+   color: white;
+}
+ 
+/* Hover effect */
+button:hover {
+   opacity: 0.8;
+}
+ 
+/* Responsive design */
+@media (max-width: 600px) {
+ 
+   body {
+       padding: 15px;
+   }
+ 
+   .container {
+       padding: 20px;
+   }
+ 
+   .gender {
+       flex-wrap: wrap;
+   }
+}
